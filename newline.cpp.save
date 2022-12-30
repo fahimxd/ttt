@@ -1,0 +1,10 @@
+#include <atomic> 
+#include <chrono> 
+#include <iostream> 
+#include <thread>
+int main() { std::atomic<bool> interrupted; int x; int i = 0; do { 
+	string str="Hello!";
+	cout << str;
+	cout << string(str.length(),'\b');
+        cout << "Hello again"
+}
